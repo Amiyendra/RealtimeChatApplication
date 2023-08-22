@@ -1,0 +1,113 @@
+body{
+   background-image:url(bg5.jpg);
+
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height:150px ;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+
+
+.container{
+    max-width: 955px;
+    /* border: 2px solid black; */
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+
+}
+.message{
+    background-color:#D4D8E8 ;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+.left{
+    float:left;
+    clear: both;
+}
+.right{
+    float:right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+}
+#messageInp{
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+/* .btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+} */
+css
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  height: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+
+.btn:hover {
+  background-color: #3e8e41;
+
+}
+
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+
+.btn:active {
+  animation-name: animate;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+
+}
